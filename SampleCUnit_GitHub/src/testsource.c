@@ -20,7 +20,7 @@ static void test_Add_01(void) {
 CU_ASSERT_EQUAL(1, add(1,0));
 }
 static void test_Add_02(void) {
-CU_ASSERT_EQUAL(10, add(2,8));
+CU_ASSERT_EQUAL(10, add(1,9));
 }
 
 static void test_Add_03(void) {
