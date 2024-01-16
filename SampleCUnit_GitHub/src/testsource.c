@@ -17,7 +17,7 @@ static void test_Add_01(void) {
 // 1 is expected value, and add(1,0) is actual return value.
 // If expected value is not same, assertion occurs.
 // We can refer the Reference document for the other useful assertion.
-CU_ASSERT_EQUAL(2, add(1,0));
+CU_ASSERT_EQUAL(2, add(2,0));
 }
 static void test_Add_02(void) {
 CU_ASSERT_EQUAL(10, add(1,9));
